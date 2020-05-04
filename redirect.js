@@ -44,7 +44,7 @@ function youtube() {
 function vimeo() {
 	var redirect = confirm("You are leaving amgutowski.com and heading to a trusted external source.");
 	if (redirect == true) {
-		window.open("https://www.vimeo.com/gutowska", "_blank");
+		window.open("https://www.vimeo.com/alexgutowski", "_blank");
 	} 
 }
 
