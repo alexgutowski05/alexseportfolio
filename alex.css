@@ -538,3 +538,7 @@ th, td {
 .Venn2.guides > div {
   border: 0.1em solid rgba(0, 0, 0, 0.5);
 }
+cite {
+	font-size: 14px;
+	font-style: italic;
+}
