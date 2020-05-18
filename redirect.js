@@ -48,6 +48,13 @@ function vimeo() {
 	} 
 }
 
+function stack() {
+	var redirect = confirm("You are leaving amgutowski.com and heading to a trusted external source.");
+	if (redirect == true) {
+		window.open("https://www.stackoverflow.com/users/12258724/alex-gutowski", "_blank");
+	}
+}
+
 var xhr= new XMLHttpRequest();	
 xhr.open('GET', 'nav.html', true);
 xhr.onreadystatechange= function() {
