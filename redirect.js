@@ -55,6 +55,13 @@ function stack() {
 	}
 }
 
+function twitch() {
+	var redirect = confirm("You are leaving amgutowski.com and heading to a trusted external source.");
+	if (redirect == true) {
+		window.open("https://twitch.tv/thundergulch847", "_blank");
+	}
+}
+
 var xhr= new XMLHttpRequest();	
 xhr.open('GET', 'nav.html', true);
 xhr.onreadystatechange= function() {
