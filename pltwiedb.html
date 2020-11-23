@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="alex.css">
+		<title>Alex's Website || PLTW IED</title>
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<meta property="og:title" content="Alex's Website" />
+		<meta property="og:image" content="splash.jpg" />
+		<script src="redirect.js"></script>
+	</head>
+<body>
+		<div id="wrapper">
+			<div id="content">
+				<nav>
+					<h1><a onclick="pltw()"><img src="pltw.png" alt="PLTW Logo" width="250"></a></h1>
+					<div id="nav"></div>
+					<br>
+					<hr>
+
+				</nav>
+				<br>
+				<p>
+					This is my page on <a onclick="pltw()" style="color: blue;text-decoration: underline;">PLTW</a> (Project Lead The Way) 
+					IED (Intro to Engineering and Design). IED B was taught by 
+					<a href="mailto:odonnelj@salineschools.org">Jerry O'Donnell</a>. 
+				</p>
+		  	  <script>
+					function pltw() {
+						var redirect = confirm("You are leaving amgutowski.com and heading to a trusted external source.");
+						if (redirect == true) {
+							window.open("https://www.pltw.org", "_blank");
+						} 
+					}
+				  function poly() {
+						var redirect = confirm("You are leaving amgutowski.com and heading to a trusted external source.");
+						if (redirect == true) {
+							window.open("https://poly.google.com/user/aWKcZCytsVk", "_blank");
+						} 
+					}
+				</script>
+				<footer>
+					Copyright &copy; 2020 Alex Gutowski <br>
+					&copy; Project Lead The Way, the appreviation "PLTW", and the PLTW Logo are trademarks of <a onclick="pltw()">Project Lead The Way Inc.</a> <br>
+					<a href="mailto:alexgutowski@gmail.com">alexgutowski@gmail.com</a> <br>
+					All Rights Reserved
+			  </footer>
+			</div>
+		</div>
+</body>
+</html>
