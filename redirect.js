@@ -23,21 +23,21 @@ function sixthGrade() {
 function instagram() {
 	var redirect = confirm("You are leaving amgutowski.com and heading to a trusted external source.");
 	if (redirect == true) {
-		window.open("https://www.instagram.com/alex.the.potato.05", "_blank");
+		window.open("https://www.instagram.com/alex.gutowski.yt", "_blank");
 	} 
 }
 
 function twitter() {
 	var redirect = confirm("You are leaving amgutowski.com and heading to a trusted external source.");
 	if (redirect == true) {
-		window.open("https://www.twitter.com/alexthepotato05", "_blank");
+		window.open("https://www.twitter.com/alexgutowskiyt5", "_blank");
 	} 
 }
 
 function youtube() {
 	var redirect = confirm("You are leaving amgutowski.com and heading to a trusted external source.");
 	if (redirect == true) {
-		window.open("https://www.youtube.com/channel/UC0BvvbmIDaZYSTToUFG-wbg?view_as=subscriber", "_blank");
+		window.open("https://www.youtube.com/channel/UC0BvvbmIDaZYSTToUFG-wbg", "_blank");
 	} 
 }
 
