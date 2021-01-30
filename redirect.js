@@ -58,7 +58,14 @@ function stack() {
 function twitch() {
 	var redirect = confirm("You are leaving amgutowski.com and heading to a trusted external source.");
 	if (redirect == true) {
-		window.open("https://twitch.tv/thundergulch847", "_blank");
+		window.open("https://twitch.tv/alexgutowski", "_blank");
+	}
+}
+
+function soundcloud() {
+	var redirect = confirm("You are leaving amgutowski.com and heading to a trusted external source.");
+	if (redirect = true) {
+		window.open("https://soundcloud.com/alex-gutowski-240338652", "_blank");
 	}
 }
 
