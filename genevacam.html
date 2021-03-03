@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="alex.css">
+		<title>Alex's Website || PLTW IED</title>
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<meta property="og:title" content="Alex's Website" />
+		<meta property="og:image" content="splash.jpg" />
+		<script src="redirect.js"></script>
+	</head>
+<body>
+		<div id="wrapper">
+			<div id="content">
+				<nav>
+					<h1><a onclick="pltw()"><img src="pltw.png" alt="PLTW Logo" width="250"></a></h1>
+					<div id="nav"></div>
+					<br>
+					<hr>
+					<a href="pltwiedb.html"><button class="navbutton">PLTW IED Home</button></a>
+					<a href="pltwiedbfiles.html"><button class="navbutton">Files</button></a>
+				</nav>
+				<br>
+				<iframe width="640" height="360" src="https://www.youtube.com/embed/jh5-6Nw0hxs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <a href="https://github.com/alexgutowski05/alexswebsite/tree/master/3dfiles/IED2/Geneva%20Cam">Files</a>
+		  	  <script>
+					function pltw() {
+						var redirect = confirm("You are leaving amgutowski.com and heading to a trusted external source.");
+						if (redirect == true) {
+							window.open("https://www.pltw.org", "_blank");
+						} 
+					}
+				</script>
+				<footer>
+					Copyright &copy; 2021 Alex Gutowski <br>
+					&copy; Project Lead The Way, the appreviation "PLTW", and the PLTW Logo are trademarks of <a onclick="pltw()">Project Lead The Way Inc.</a> <br>
+					<a href="mailto:alexgutowski@gmail.com">alexgutowski@gmail.com</a> <br>
+					All Rights Reserved
+			  </footer>
+			</div>
+		</div>
+</body>
+</html>
